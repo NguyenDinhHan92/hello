@@ -1,0 +1,28 @@
+2021/09/22-21:15:44.377 361a Reusing MANIFEST /home/hannd/snap/zalo-chat-unofficial/4/.config/zalo-chat-unofficial/Local Storage/leveldb/MANIFEST-000001
+2021/09/22-21:15:44.378 361a Recovering log #16
+2021/09/22-21:15:44.379 361a Level-0 table #20: started
+2021/09/22-21:15:44.522 361a Level-0 table #20: 19632 bytes OK
+2021/09/22-21:15:44.522 361a Recovering log #20
+2021/09/22-21:15:44.522 361a Reusing old log /home/hannd/snap/zalo-chat-unofficial/4/.config/zalo-chat-unofficial/Local Storage/leveldb/000020.log 
+2021/09/22-21:15:44.525 361a Delete type=0 #16
+2021/09/22-21:18:00.088 3632 Level-0 table #22: started
+2021/09/22-21:18:00.091 3632 Level-0 table #22: 21405 bytes OK
+2021/09/22-21:18:00.093 3632 Delete type=0 #20
+2021/09/22-21:27:28.257 3619 Level-0 table #24: started
+2021/09/22-21:27:28.259 3619 Level-0 table #24: 20976 bytes OK
+2021/09/22-21:27:28.261 3619 Delete type=0 #21
+2021/09/22-21:42:53.826 3619 Level-0 table #26: started
+2021/09/22-21:42:53.829 3619 Level-0 table #26: 22269 bytes OK
+2021/09/22-21:42:53.833 3619 Delete type=0 #23
+2021/09/22-21:42:53.833 3619 Compacting 4@0 + 1@1 files
+2021/09/22-21:42:53.841 3619 Generated table #27@0: 3206 keys, 96480 bytes
+2021/09/22-21:42:53.841 3619 Compacted 4@0 + 1@1 files => 96480 bytes
+2021/09/22-21:42:53.843 3619 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/09/22-21:42:53.843 3619 Delete type=2 #24
+2021/09/22-21:42:53.843 3619 Delete type=2 #18
+2021/09/22-21:42:53.843 3619 Delete type=2 #22
+2021/09/22-21:42:53.843 3619 Delete type=2 #26
+2021/09/22-21:42:53.843 3619 Delete type=2 #20
+2021/09/22-21:52:53.845 390a Level-0 table #29: started
+2021/09/22-21:52:53.849 390a Level-0 table #29: 47677 bytes OK
+2021/09/22-21:52:53.851 390a Delete type=0 #25

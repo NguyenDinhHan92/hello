@@ -1,0 +1,30 @@
+version: '3'
+volumes:
+  postgres_data: {}
+
+services:
+  app:
+    container_name: rhrm_app
+    command: sh ./bin/docker_start.sh
+    build:
+      context: .
+      dockerfile: ./docker/app/Dockerfile
+    volumes:
+      - .:/var/www/rhrm
+    ports:
+      - "3000:3000"
+    env_file:
+      - environments/docker.env
+    depends_on:
+      - db
+
+  db:
+    container_name: rhrm_db
+    image: postgres
+    ports:
+      - "5732:5432"
+    env_file:
+      - environments/docker.env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      

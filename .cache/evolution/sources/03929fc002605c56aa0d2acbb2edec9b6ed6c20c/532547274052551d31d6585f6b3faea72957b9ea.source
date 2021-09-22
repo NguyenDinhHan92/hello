@@ -1,0 +1,32 @@
+[Data Source]
+DisplayName=Việc cần làm của tôi
+Enabled=true
+Parent=03929fc002605c56aa0d2acbb2edec9b6ed6c20c
+
+[Authentication]
+Host=www.google.com
+Method=OAuth2
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=nguyendinhhan2101@gmail.com
+CredentialName=
+IsExternal=false
+
+[Resource]
+Identity=gtasks::MTE3NTU5OTgwNTc2Njg1Mzc4MTY6MDow
+
+[Alarms]
+IncludeMe=false
+LastNotified=
+
+[Task List]
+BackendName=gtasks
+Color=rgb(190,206,221)
+Selected=true
+
+[Offline]
+StaySynchronized=true
+
+[GNOME To Do]
+ApiVersion=1

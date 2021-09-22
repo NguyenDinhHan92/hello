@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="kolourpaint_kolourpaint.desktop" score="0.5" last-seen="1632322591"/>
+    <application id="libreoffice-writer.desktop" score="0.1875" last-seen="1632274821"/>
+    <application id="org.gnome.DiskUtility.desktop" score="1.5" last-seen="1632325745"/>
+    <application id="yelp.desktop" score="0.125" last-seen="1632274662"/>
+    <application id="zalo-chat-unofficial_zalo-chat-unofficial.desktop" score="15.1875" last-seen="1632322421"/>
+    <application id="org.gnome.Screenshot.desktop" score="0" last-seen="1632274931"/>
+    <application id="apport-gtk.desktop" score="1" last-seen="1632319650"/>
+    <application id="gnome-background-panel.desktop" score="0" last-seen="0"/>
+    <application id="org.gnome.PowerStats.desktop" score="0" last-seen="1632278211"/>
+    <application id="gnome-control-center.desktop" score="8.75" last-seen="1632322430"/>
+    <application id="org.gnome.gedit.desktop" score="0.0625" last-seen="1632325648"/>
+    <application id="gcr-prompter.desktop" score="0.125" last-seen="1632277349"/>
+    <application id="update-manager.desktop" score="1" last-seen="1632274566"/>
+    <application id="grub-customizer.desktop" score="38347707.9375" last-seen="1632322800"/>
+    <application id="org.gnome.Nautilus.desktop" score="26.0625" last-seen="1632325795"/>
+    <application id="sublime-text_subl.desktop" score="55.625" last-seen="1632326269"/>
+    <application id="org.gnome.seahorse.Application.desktop" score="0.25" last-seen="1632275564"/>
+    <application id="firefox.desktop" score="298.3125" last-seen="1632325970"/>
+    <application id="org.gnome.Terminal.desktop" score="206.75" last-seen="1632326259"/>
+    <application id="org.gnome.Calculator.desktop" score="0.25" last-seen="1632278195"/>
+    <application id="snap-store_ubuntu-software.desktop" score="29.25" last-seen="1632322560"/>
+    <application id="gnome-initial-setup.desktop" score="3.125" last-seen="1632274400"/>
+    <application id="shotwell.desktop" score="6.125" last-seen="1632322419"/>
+    <application id="thunderbird.desktop" score="0.875" last-seen="1632275685"/>
+    <application id="org.gnome.Todo.desktop" score="0.9375" last-seen="1632275515"/>
+    <application id="gnome-system-monitor.desktop" score="2.3125" last-seen="1632320051"/>
+    <application id="org.gnome.Sudoku.desktop" score="0.4375" last-seen="1632275009"/>
+    <application id="gkbd-keyboard-display.desktop" score="0" last-seen="1632277371"/>
+  </context>
+</application-state>

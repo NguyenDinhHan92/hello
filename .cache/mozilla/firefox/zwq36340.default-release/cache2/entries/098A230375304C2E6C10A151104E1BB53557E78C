@@ -1,0 +1,343 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## These messages are used as headings in the recommendation doorhanger
+
+cfr-doorhanger-extension-heading = Tiện ích được đề xuất
+cfr-doorhanger-feature-heading = Tính năng được đề xuất
+cfr-doorhanger-pintab-heading = Hãy thử cái này: Ghim thẻ
+
+##
+
+cfr-doorhanger-extension-sumo-link =
+    .tooltiptext = Tại sao tôi thấy cái này
+cfr-doorhanger-extension-cancel-button = Không phải bây giờ
+    .accesskey = N
+cfr-doorhanger-extension-ok-button = Thêm vào ngay
+    .accesskey = A
+cfr-doorhanger-pintab-ok-button = Ghim thẻ này
+    .accesskey = P
+cfr-doorhanger-extension-manage-settings-button = Quản lý các thiết lập được đề xuất
+    .accesskey = M
+cfr-doorhanger-extension-never-show-recommendation = Không hiển thị cho tôi đề xuất này
+    .accesskey = S
+cfr-doorhanger-extension-learn-more-link = Tìm hiểu thêm
+# This string is used on a new line below the add-on name
+# Variables:
+#   $name (String) - Add-on author name
+cfr-doorhanger-extension-author = bởi { $name }
+# This is a notification displayed in the address bar.
+# When clicked it opens a panel with a message for the user.
+cfr-doorhanger-extension-notification = Đề xuất
+cfr-doorhanger-extension-notification2 = Đề xuất
+    .tooltiptext = Tiện ích được đề xuất
+    .a11y-announcement = Tiện ích được đề xuất có sẵn
+# This is a notification displayed in the address bar.
+# When clicked it opens a panel with a message for the user.
+cfr-doorhanger-feature-notification = Đề xuất
+    .tooltiptext = Tính năng được đề xuất
+    .a11y-announcement = Tính năng được đề xuất có sẵn
+
+## Add-on statistics
+## These strings are used to display the total number of
+## users and rating for an add-on. They are shown next to each other.
+
+# Variables:
+#   $total (Number) - The rating of the add-on from 1 to 5
+cfr-doorhanger-extension-rating =
+    .tooltiptext =
+        { $total ->
+           *[other] { $total } sao
+        }
+# Variables:
+#   $total (Number) - The total number of users using the add-on
+cfr-doorhanger-extension-total-users =
+    { $total ->
+       *[other] { $total } người dùng
+    }
+cfr-doorhanger-pintab-description = Dễ dàng truy cập vào các trang web được sử dụng nhiều nhất của bạn. Giữ các trang web mở trong một thẻ (ngay cả khi bạn khởi động lại).
+
+## These messages are steps on how to use the feature and are shown together.
+
+cfr-doorhanger-pintab-step1 = <b>Nhấp chuột phải</b> trên thẻ bạn muốn ghim.
+cfr-doorhanger-pintab-step2 = Chọn <b>Ghim thẻ</b> từ menu.
+cfr-doorhanger-pintab-step3 = Nếu trang web có bản cập nhật, bạn sẽ thấy một chấm màu xanh trên thẻ được ghim.
+cfr-doorhanger-pintab-animation-pause = Tạm dừng
+cfr-doorhanger-pintab-animation-resume = Tiếp tục
+
+## Firefox Accounts Message
+
+cfr-doorhanger-bookmark-fxa-header = Đồng bộ dấu trang của bạn ở mọi nơi.
+cfr-doorhanger-bookmark-fxa-body = Đã tìm thấy tuyệt vời! Bây giờ hãy đồng bộ các dấu trang này với thiết bị di động của bạn. Bắt đầu với một { -fxaccount-brand-name }.
+cfr-doorhanger-bookmark-fxa-link-text = Đồng bộ hóa dấu trang ngay bây giờ...
+cfr-doorhanger-bookmark-fxa-close-btn-tooltip =
+    .aria-label = Nút đóng
+    .title = Đóng
+
+## Protections panel
+
+cfr-protections-panel-header = Duyệt mà không bị theo dõi
+cfr-protections-panel-body = Giữ dữ liệu của bạn cho chính mình. { -brand-short-name } bảo vệ bạn khỏi nhiều trình theo dõi phổ biến nhất theo dõi những gì bạn làm trực tuyến.
+cfr-protections-panel-link-text = Tìm hiểu thêm
+
+## What's New toolbar button and panel
+
+# This string is used by screen readers to offer a text based alternative for
+# the notification icon
+cfr-badge-reader-label-newfeature = Tính năng mới:
+cfr-whatsnew-button =
+    .label = Có gì mới
+    .tooltiptext = Có gì mới
+cfr-whatsnew-panel-header = Có gì mới
+cfr-whatsnew-release-notes-link-text = Đọc ghi chú phát hành
+cfr-whatsnew-fx70-title = { -brand-short-name } bây giờ chiến đấu mạnh mẽ hơn cho quyền riêng tư của bạn
+cfr-whatsnew-fx70-body =
+    Bản cập nhật mới nhất nâng cao tính năng chống theo dõi và làm cho nó
+    dễ dàng hơn bao giờ hết để tạo mật khẩu an toàn cho mọi trang web.
+cfr-whatsnew-tracking-protect-title = Bảo vệ bạn khỏi trình theo dõi
+cfr-whatsnew-tracking-protect-body =
+    { -brand-short-name } chặn nhiều trình theo dõi xã hội và trang web phổ biến mà
+    nó theo dõi những gì bạn làm trực tuyến
+cfr-whatsnew-tracking-protect-link-text = Xem báo cáo của bạn
+# This string is displayed before a large numeral that indicates the total
+# number of tracking elements blocked. Don’t add $blockedCount to your
+# localization, because it would result in the number showing twice.
+cfr-whatsnew-tracking-blocked-title =
+    { $blockedCount ->
+       *[other] Trình theo dõi đã chặn
+    }
+cfr-whatsnew-tracking-blocked-subtitle = Từ { DATETIME($earliestDate, month: "long", year: "numeric") }
+cfr-whatsnew-tracking-blocked-link-text = Xem báo cáo
+cfr-whatsnew-lockwise-backup-title = Sao lưu mật khẩu của bạn
+cfr-whatsnew-lockwise-backup-body = Bây giờ tạo mật khẩu an toàn, bạn có thể truy cập bất cứ nơi nào bạn đăng nhập.
+cfr-whatsnew-lockwise-backup-link-text = Bật sao lưu
+cfr-whatsnew-lockwise-take-title = Mang mật khẩu theo bên bạn
+cfr-whatsnew-lockwise-take-body =
+    Ứng dụng di động { -lockwise-brand-short-name } cho phép bạn truy cập an toàn
+    mật khẩu được sao lưu từ bất cứ đâu.
+cfr-whatsnew-lockwise-take-link-text = Tải ứng dụng
+
+## Search Bar
+
+cfr-whatsnew-searchbar-title = Nhập ít hơn, tìm nhiều hơn với thanh địa chỉ
+cfr-whatsnew-searchbar-body-topsites = Bây giờ, chỉ cần chọn thanh địa chỉ và một hộp sẽ mở rộng với các liên kết đến các trang web hàng đầu của bạn.
+
+## Search bar
+
+cfr-whatsnew-searchbar-icon-alt-text = Biểu tượng kính lúp
+
+## Picture-in-Picture
+
+cfr-whatsnew-pip-header = Xem video trong khi bạn duyệt
+cfr-whatsnew-pip-body = Hình trong hình bật video vào một cửa sổ nổi để bạn có thể xem trong khi làm việc trong các thẻ khác.
+cfr-whatsnew-pip-cta = Tìm hiểu thêm
+
+## Permission Prompt
+
+cfr-whatsnew-permission-prompt-header = Ít trang web gây phiền nhiễu hơn
+cfr-whatsnew-permission-prompt-body = { -brand-shorter-name } hiện chặn các trang web tự động yêu cầu gửi cho bạn thông báo bật lên.
+cfr-whatsnew-permission-prompt-cta = Tìm hiểu thêm
+
+## Fingerprinter Counter
+
+# This string is displayed before a large numeral that indicates the total
+# number of tracking elements blocked. Don’t add $fingerprinterCount to your
+# localization, because it would result in the number showing twice.
+cfr-whatsnew-fingerprinter-counter-header =
+    { $fingerprinterCount ->
+       *[other] Dấu vết bị chặn
+    }
+cfr-whatsnew-fingerprinter-counter-body = { -brand-shorter-name } chặn nhiều trang lấy dấu vết để bí mật thu thập thông tin về thiết bị và hành động của bạn để tạo hồ sơ quảng cáo về bạn.
+# Message variation when fingerprinters count is less than 10
+cfr-whatsnew-fingerprinter-counter-header-alt = Dấu vết
+cfr-whatsnew-fingerprinter-counter-body-alt = { -brand-shorter-name } có thể chặn những trang lấy dấu vết để bí mật thu thập thông tin về thiết bị và hành động của bạn để tạo hồ sơ quảng cáo về bạn.
+
+## Bookmark Sync
+
+cfr-doorhanger-sync-bookmarks-header = Nhận dấu trang này trên điện thoại của bạn
+cfr-doorhanger-sync-bookmarks-body = Nhận dấu trang, mật khẩu, lịch sử của bạn và nhiều nơi khác mà bạn đã đăng nhập vào { -brand-product-name }.
+cfr-doorhanger-sync-bookmarks-ok-button = Bật { -sync-brand-short-name }
+    .accesskey = T
+
+## Login Sync
+
+cfr-doorhanger-sync-logins-header = Không bao giờ mất mật khẩu lần nữa
+cfr-doorhanger-sync-logins-body = Lưu trữ an toàn và đồng bộ hóa mật khẩu của bạn với tất cả các thiết bị của bạn.
+cfr-doorhanger-sync-logins-ok-button = Bật { -sync-brand-short-name }
+    .accesskey = T
+
+## Send Tab
+
+cfr-doorhanger-send-tab-header = Đọc cái này khi đang di chuyển
+cfr-doorhanger-send-tab-recipe-header = Mang công thức này vào bếp
+cfr-doorhanger-send-tab-body = Gửi thẻ cho phép bạn dễ dàng chia sẻ liên kết này với điện thoại của mình hoặc bất cứ nơi nào bạn đăng nhập vào { -brand-product-name }.
+cfr-doorhanger-send-tab-ok-button = Thử trình gửi thẻ
+    .accesskey = T
+
+## Firefox Send
+
+cfr-doorhanger-firefox-send-header = Chia sẻ PDF này một cách an toàn
+cfr-doorhanger-firefox-send-body = Giữ các tài liệu nhạy cảm của bạn an toàn khỏi những con mắt tò mò với mã hóa đầu cuối và một liên kết sẽ biến mất khi bạn thực hiện xong.
+cfr-doorhanger-firefox-send-ok-button = Thử { -send-brand-name }
+    .accesskey = T
+
+## Social Tracking Protection
+
+cfr-doorhanger-socialtracking-ok-button = Xem mục bảo vệ
+    .accesskey = P
+cfr-doorhanger-socialtracking-close-button = Đóng
+    .accesskey = C
+cfr-doorhanger-socialtracking-dont-show-again = Đừng hiện cho tôi những tin này nữa
+    .accesskey = D
+cfr-doorhanger-socialtracking-heading = { -brand-short-name } đã dừng mạng xã hội mà nó theo dõi bạn tại đây
+cfr-doorhanger-socialtracking-description = Vấn đề riêng tư của bạn. { -brand-short-name } hiện chặn các trình theo dõi phương tiện truyền thông xã hội phổ biến, giới hạn số lượng dữ liệu họ có thể thu thập về những gì bạn làm trực tuyến.
+cfr-doorhanger-fingerprinters-heading = { -brand-short-name } đã chặn một dấu vết trên trang này
+cfr-doorhanger-fingerprinters-description = Vấn đề riêng tư của bạn. { -brand-short-name } hiện chặn các dấu vết, mà nó thu thập các mẫu thông tin nhận dạng duy nhất về thiết bị của bạn để theo dõi bạn.
+cfr-doorhanger-cryptominers-heading = { -brand-short-name } đã chặn một loại tiền điện tử trên trang này
+cfr-doorhanger-cryptominers-description = Vấn đề riêng tư của bạn. { -brand-short-name } hiện chặn các loại tiền điện tử, mà nó sử dụng sức mạnh tính toán của hệ thống của bạn để khai thác tiền kỹ thuật số.
+
+## Enhanced Tracking Protection Milestones
+
+# Variables:
+#   $blockedCount (Number) - The total count of blocked trackers. This number will always be greater than 1.
+#   $date (String) - The date we began recording the count of blocked trackers
+cfr-doorhanger-milestone-heading =
+    { $blockedCount ->
+       *[other] { -brand-short-name } đã chặn hơn <b>{ $blockedCount }</b> trình theo dõi từ { $date }!
+    }
+# Variables:
+#   $blockedCount (Number) - The total count of blocked trackers. This number will always be greater than 1.
+#   $date (Datetime) - The date we began recording the count of blocked trackers
+cfr-doorhanger-milestone-heading2 =
+    { $blockedCount ->
+       *[other] { -brand-short-name } đã chặn hơn <b>{ $blockedCount }</b> trình theo dõi kể từ { DATETIME($date, month: "long", year: "numeric") }!
+    }
+cfr-doorhanger-milestone-ok-button = Xem tất cả
+    .accesskey = S
+
+## What’s New Panel Content for Firefox 76
+
+
+## Lockwise message
+
+cfr-whatsnew-lockwise-header = Dễ dàng tạo mật khẩu an toàn
+cfr-whatsnew-lockwise-body = Thật khó để nghĩ về mật khẩu độc đáo, an toàn cho mọi tài khoản. Khi tạo mật khẩu, chọn trường mật khẩu để sử dụng mật khẩu được tạo an toàn từ { -brand-shorter-name }.
+cfr-whatsnew-lockwise-icon-alt = Biểu tượng { -lockwise-brand-short-name }
+
+## Vulnerable Passwords message
+
+cfr-whatsnew-passwords-header = Nhận thông báo về mật khẩu dễ bị tấn công
+cfr-whatsnew-passwords-body = Tin tặc biết mọi người sử dụng lại cùng một mật khẩu. Nếu bạn đã sử dụng cùng một mật khẩu trên nhiều trang web và một trong những trang web đó đã bị rò rỉ dữ liệu, bạn sẽ thấy một cảnh báo trong { -lockwise-brand-short-name } để thay đổi mật khẩu của bạn trên các trang web đó.
+cfr-whatsnew-passwords-icon-alt = Biểu tượng khóa mật khẩu dễ bị tổn thương
+
+## Picture-in-Picture fullscreen message
+
+cfr-whatsnew-pip-fullscreen-header = Làm cho hình trong hình toàn màn hình
+cfr-whatsnew-pip-fullscreen-body = Khi bạn bật video vào một cửa sổ nổi, bây giờ bạn có thể nhấp đúp vào cửa sổ đó để vào chế độ toàn màn hình.
+cfr-whatsnew-pip-fullscreen-icon-alt = Biểu tượng hình trong hình
+
+## Protections Dashboard message
+
+cfr-doorhanger-milestone-close-button = Đóng
+    .accesskey = C
+
+## What’s New Panel Content for Firefox 76
+## Protections Dashboard message
+
+cfr-whatsnew-protections-header = Bảo vệ trong nháy mắt
+cfr-whatsnew-protections-body = Bảng điều khiển bảo vệ bao gồm các báo cáo tóm tắt về rò rỉ dữ liệu và quản lý mật khẩu. Bây giờ bạn có thể theo dõi có bao nhiêu rò rỉ mà bạn đã giải quyết và xem liệu bất kỳ mật khẩu đã lưu nào của bạn có thể bị lộ trong một rò rỉ dữ liệu hay không.
+cfr-whatsnew-protections-cta-link = Xem bảng điều khiển bảo vệ
+cfr-whatsnew-protections-icon-alt = Biểu tượng khiên
+
+## Better PDF message
+
+cfr-whatsnew-better-pdf-header = Trải nghiệm PDF tốt hơn
+cfr-whatsnew-better-pdf-body = Tài liệu PDF hiện mở trực tiếp bằng { -brand-short-name }, giữ cho công việc của bạn trong tầm tay dễ dàng.
+
+## DOH Message
+
+cfr-doorhanger-doh-body = Vấn đề riêng tư của bạn. { -brand-short-name } bây giờ định tuyến an toàn các yêu cầu DNS của bạn bất cứ khi nào có thể đến dịch vụ đối tác để bảo vệ bạn trong khi bạn duyệt.
+cfr-doorhanger-doh-header = Truy vấn DNS được mã hóa, an toàn hơn
+cfr-doorhanger-doh-primary-button-2 = Okey
+    .accesskey = O
+cfr-doorhanger-doh-secondary-button = Vô hiệu hóa
+    .accesskey = D
+
+## Fission Experiment Message
+
+cfr-doorhanger-fission-body-approved = Quyền riêng tư của bạn được đặt lên hàng đầu. { -brand-short-name } hiện cô lập hoặc các trang web với nhau vào sandbox, điều này khiến tin tặc khó lấy cắp mật khẩu, số thẻ tín dụng và các thông tin nhạy cảm khác.
+cfr-doorhanger-fission-header = Cách ly trang web
+cfr-doorhanger-fission-primary-button = OK, đã hiểu
+    .accesskey = O
+cfr-doorhanger-fission-secondary-button = Tìm hiểu thêm
+    .accesskey = T
+
+## What's new: Cookies message
+
+cfr-whatsnew-clear-cookies-header = Bảo vệ tự động, không có theo dõi ẩn
+cfr-whatsnew-clear-cookies-body = Một số trình theo dõi chuyển hướng bạn đến các trang web khác bí mật đặt cookie. { -brand-short-name } bây giờ sẽ tự động xóa các cookie đó để bạn không thể bị theo dõi.
+cfr-whatsnew-clear-cookies-image-alt = Minh họa về cookie bị chặn
+
+## What's new: Media controls message
+
+cfr-whatsnew-media-keys-header = Điều khiển phương tiện khác
+cfr-whatsnew-media-keys-body = Phát và tạm dừng âm thanh hoặc video ngay từ bàn phím hoặc tai nghe của bạn, giúp bạn dễ dàng điều khiển phương tiện từ thẻ, chương trình khác hoặc ngay cả khi máy tính của bạn bị khóa. Bạn cũng có thể di chuyển giữa các bản nhạc bằng cách sử dụng các phím tiến và lùi.
+cfr-whatsnew-media-keys-button = Tìm hiểu cách thức
+
+## What's new: Search shortcuts
+
+cfr-whatsnew-search-shortcuts-header = Tìm kiếm các phím tắt trong thanh địa chỉ
+cfr-whatsnew-search-shortcuts-body = Bây giờ, khi bạn nhập công cụ tìm kiếm hoặc trang web cụ thể vào thanh địa chỉ, một phím tắt màu xanh lam sẽ xuất hiện trong các đề xuất tìm kiếm bên dưới. Chọn lối tắt đó để hoàn tất tìm kiếm của bạn trực tiếp từ thanh địa chỉ.
+
+## What's new: Cookies protection
+
+cfr-whatsnew-supercookies-header = Bảo vệ khỏi supercookie độc hại
+cfr-whatsnew-supercookies-body = Các trang web có thể bí mật đính kèm một “supercookie” vào trình duyệt của bạn để có thể theo dõi bạn trên khắp trang web, ngay cả sau khi bạn xóa cookie của mình. { -brand-short-name } hiện cung cấp khả năng bảo vệ mạnh mẽ chống lại các supercookie để chúng không thể được sử dụng để theo dõi các hoạt động trực tuyến của bạn từ trang web này sang trang web khác.
+
+## What's new: Better bookmarking
+
+cfr-whatsnew-bookmarking-header = Đánh dấu trang tốt hơn
+cfr-whatsnew-bookmarking-body = Theo dõi các trang web yêu thích của bạn dễ dàng hơn. Bây giờ { -brand-short-name } nhớ vị trí ưa thích của bạn cho các dấu trang đã lưu, hiển thị thanh công cụ dấu trang theo mặc định trên các thẻ mới và cho phép bạn dễ dàng truy cập vào phần còn lại của dấu trang thông qua thư mục thanh công cụ.
+
+## What's new: Cross-site cookie tracking
+
+cfr-whatsnew-cross-site-tracking-header = Bảo vệ toàn diện khỏi theo dõi cookie trên nhiều trang web
+cfr-whatsnew-cross-site-tracking-body = Bây giờ bạn có thể chọn tham gia để bảo vệ tốt hơn khỏi theo dõi cookie. { -brand-short-name } có thể cô lập các hoạt động và dữ liệu của bạn với trang web bạn hiện đang truy cập, vì vậy thông tin được lưu trữ trong trình duyệt sẽ không được chia sẻ giữa các trang web.
+
+## Full Video Support CFR message
+
+cfr-doorhanger-video-support-body = Các video trên trang web này có thể phát không đúng trên phiên bản { -brand-short-name } này. Để được hỗ trợ đầy đủ về video, hãy cập nhật { -brand-short-name } ngay bây giờ.
+cfr-doorhanger-video-support-header = Cập nhật { -brand-short-name } để phát video
+cfr-doorhanger-video-support-primary-button = Cập nhật bây giờ
+    .accesskey = U
+-����      aJ�aJ�Co�aRx6       :https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/ms-language-packs/694d69a0-b613-489b-b168-e7e62252aca6.ftl strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 OK
+Content-Type: application/octet-stream
+Content-Length: 19202
+Last-Modified: Mon, 07 Jun 2021 15:23:14 GMT
+x-amz-version-id: IZOMArqc3ydERa7Wz5U9bQ0haQOGvAHk
+Accept-Ranges: bytes
+Server: AmazonS3
+Date: Tue, 21 Sep 2021 02:04:46 GMT
+ETag: "9cced964edf0cd407d76227ebbe94e52"
+X-Cache: Hit from cloudfront
+Via: 1.1 fa763bd4d7fde260f358b4b4d919622d.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HKG54-C1
+X-Amz-Cf-Id: 9xvieQaNiMmSh3Wj2VAyFyMlGU3SCsv7Uml0HIDpxfD0gqzoehiz-A==
+Age: 86116
+ original-response-headers Content-Type: application/octet-stream
+Content-Length: 19202
+Connection: keep-alive
+Last-Modified: Mon, 07 Jun 2021 15:23:14 GMT
+x-amz-version-id: IZOMArqc3ydERa7Wz5U9bQ0haQOGvAHk
+Accept-Ranges: bytes
+Server: AmazonS3
+Date: Tue, 21 Sep 2021 02:04:46 GMT
+ETag: "9cced964edf0cd407d76227ebbe94e52"
+X-Cache: Hit from cloudfront
+Via: 1.1 fa763bd4d7fde260f358b4b4d919622d.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HKG54-C1
+X-Amz-Cf-Id: 9xvieQaNiMmSh3Wj2VAyFyMlGU3SCsv7Uml0HIDpxfD0gqzoehiz-A==
+Age: 86116
+ ctid 1 net-response-time-onstart 108 net-response-time-onstop 113   K

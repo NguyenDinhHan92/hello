@@ -1,0 +1,146 @@
+Grub Customize ----   git remote -v 
+(Cài video firefox) sudo apt-get install ubuntu-restricted-extras
+sudo lshwr
+$ git config --global user.name "your_github_username"
+$ git config --global user.email "your_github_email"
+$ git config -l
+NguyenDinhHan92 -> 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
+RORNguyenDinhHung ----- Meeting@1234 | huntojkojqw01github
+cvt 1920 1080 60
+xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
+xrandr --addmode VGA-1 1920x1080_60.00
+sudo apt --fix-broken install
+sudo apt autoremove
+*Tao moi:
+$ git init
+$ git remote add origin https://github.com/entershare/harisalonmana.com.git
+$ git pull origin master
+root@dc2d71bee218:/app# rails db:migrate
+root@dc2d71bee218:/app# yarn install
+root@dc2d71bee218:/app# rails webpacker:install
+root@dc2d71bee218:/app# rails restart
+------------------------------------------------------------------------------------------------------
+Các bước thực hiện sau khi hiểu task:
+0. cd đến thưc mục, checkout về nhánh gốc có code mới nhất (master), để pull code trên mạng về máy mình
+$ git co master
+$ git pull origin master
+
+1. rẽ sang nhánh mới để làm task , nhánh mới này sẽ có code kế thừa từ master
+$ git co -b "ID_ISSUE_TÊN_NHÁNH" (tạo nhánh mới)
+$ git branch (xem ds các nhánh)
+$ git co "ID_ISSUE_TÊN_NHÁNH" (rẽ nhánh)
+
+2. chạy docker-compose:
+$ docker-compose up
+
+3. Mở 2 tab terminal nữa, 1 tab để vào docker, 1 tab để xem git status
+ở tab để vào docker thì chạy lệnh:
+$  docker ps #để xem tên các docker đang chạy trên máy, chọn ra cái tên của docker đang chạy rails, chứ ko phải chạy db
+$ docker exec -it hari_app_1 bash
+nếu thành công thì nó sẽ hiện :
+....:/app#
+
+4. Code, Sửa, Test. Check chính tả rubocop:
+/app# rubocop
+
+5. Xong thì commit ở tab terminal thứ 3 bằng cách
+$ git status #để check trạng thái của thư mục( đang ở nhánh nào, file nào thay đổi)
+$ git diff #để xem chi tiết thay đổi ở các file
+$ git a -A hoặc git a TÊN_FILE
+$ git cm -m "tên chức năng"
+
+6. Push code lên github:
+$ git push origin TÊN_NHÁNH
+
+7. Báo người review. Hết
+
+
+NOTE:
+$ git log # xem nhật ký chỉnh sửa
+/app# rails routes #xem list url của app
+/app# rails routes |grep từ_khóa #xem list url có chứa từ khóa
+
+$ git checkout --track -b staging
+$ git pull origin staging
+
+rm -rf config/locales/vn.yml (xoa file)
+gem update bundler
+bundle install
+git clone git@github.com:entershare/harisalonmana.com.git
+
+root@dc2d71bee218:/app# rails c
+irb(main):002:0>Admin.create!(name: 'test, email: 'admin@harisalonmana.com', password: 'password')
+------------------------------------------------------------------------------------------------------
+$ sudo apt-get update (Cập nhật bản mới nhất của Ubuntu)
+$ sudo apt-get install curl (Cài đặt Ruby)
+$ sudo apt-get install zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev (Cài đặt các dependencies cho Ruby)
+* Cài đặt RVM:
+$ sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
+$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+$ curl -sSL https://get.rvm.io | bash -s stable
+$ source ~/.rvm/scripts/rvm
+* Cai dat Ruby
+$ rvm install 2.5.1
+$ rvm use 2.5.1 --default
+$ ruby -v
+* Cài đặt Rails framework
+$ gem install rails --version 5.0.0.1 --no-ri --no-rdoc
+$ rails -v
+* Cài đặt server cho ứng dụng Rails
+$ curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+sudo apt-get install -y nodejs
+* Cài đặt MySQL server
+$ sudo apt-get install mysql-server mysql-client libmysqlclient-dev
+* Cài đặt MySQL Workbench
+$ sudo apt-get install mysql-workbench
+$ rails new hello_world
+$ rails s
+-> Neu loi There was an error while trying to load the gem 'uglifier'. (Bundler::GemRequireError) ($ sudo apt-get install nodejs)
+------------------------
+$ gem pristine --all
+$ ls -la bin/
+$ sudo chmod 775 bin/docker_start.sh
+
+ git reset --hard HEAD
+
+ /app# rails generate migration add_fieldname_to_tablename fieldname:string
+/app# rails db:migrate
+
+------------------------------ rails db:seed 
+ User.destroy_all
+ActiveRecord::Base.connection.reset_pk_sequence!('users')
+
+
+10.times do | i | 
+    User.create!(
+    	email: "admin#{i}@example.com",
+    	fullname: "Admin#{i}",
+    	phonenumber: "0328371#{"%03d" % i }",
+    	position: "Host",
+    	status: true,
+    	usertype: "Admin",
+    	password: "abc123",
+    	password_confirmation: 'abc123'
+    )
+end
+
+200.times do | i | 
+    User.create!(
+    	email: "User#{i}@example.com",
+    	fullname: "User#{i}",
+    	phonenumber: "0328370#{"%03d" % i }",
+    	position: "Staff",
+    	status: false,
+    	usertype: "Staff",
+    	password: "123456",
+    	password_confirmation: '123456'
+    )
+end
+-------------
+$ sudo service docker stop
+$ sudo rm /var/lib/docker/network/files/local-kv.db
+$ sudo service docker start
+-------------
+(Session timeout add file) /config/initializers/session_store.rb
+Rails.application.config.session_store :cookie_store, key: '_rhrm_session', expire_after: 30.minutes
+-------------

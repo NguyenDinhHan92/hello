@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=nguyendinhhan2101@gmail.com
+Enabled=true
+Parent=03929fc002605c56aa0d2acbb2edec9b6ed6c20c
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=2070193baf88d66b98f433280665403e0eab5f13
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=nguyendinhhan2101@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

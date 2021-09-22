@@ -1,0 +1,29 @@
+<background>
+  <static>
+    <duration>1800.00</duration>
+    <file>/home/hannd/.local/share/shotwell/wallpaper/bg02.jpg</file>
+  </static>
+  <transition>
+    <duration>2.00</duration>
+    <from>/home/hannd/.local/share/shotwell/wallpaper/bg02.jpg</from>
+    <to>/home/hannd/.local/share/shotwell/wallpaper/bg01.jpg</to>
+  </transition>
+  <static>
+    <duration>1800.00</duration>
+    <file>/home/hannd/.local/share/shotwell/wallpaper/bg01.jpg</file>
+  </static>
+  <transition>
+    <duration>2.00</duration>
+    <from>/home/hannd/.local/share/shotwell/wallpaper/bg01.jpg</from>
+    <to>/home/hannd/.local/share/shotwell/wallpaper/bg03.jpg</to>
+  </transition>
+  <static>
+    <duration>1800.00</duration>
+    <file>/home/hannd/.local/share/shotwell/wallpaper/bg03.jpg</file>
+  </static>
+  <transition>
+    <duration>2.00</duration>
+    <from>/home/hannd/.local/share/shotwell/wallpaper/bg03.jpg</from>
+    <to>/home/hannd/.local/share/shotwell/wallpaper/bg02.jpg</to>
+  </transition>
+</background>

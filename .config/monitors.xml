@@ -1,0 +1,31 @@
+<monitors version="2">
+  <configuration>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-1</connector>
+          <vendor>SAM</vendor>
+          <product>LF24T370F</product>
+          <serial>HNAR200294</serial>
+        </monitorspec>
+        <mode>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <disabled>
+      <monitorspec>
+        <connector>VGA-1</connector>
+        <vendor>HWP</vendor>
+        <product>HP L1506</product>
+        <serial>CND71211P5</serial>
+      </monitorspec>
+    </disabled>
+  </configuration>
+</monitors>

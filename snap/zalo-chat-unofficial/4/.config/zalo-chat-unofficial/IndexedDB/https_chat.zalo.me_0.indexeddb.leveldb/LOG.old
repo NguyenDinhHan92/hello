@@ -1,0 +1,5 @@
+2021/09/22-16:12:49.604 c72 Reusing MANIFEST /home/hannd/snap/zalo-chat-unofficial/4/.config/zalo-chat-unofficial/IndexedDB/https_chat.zalo.me_0.indexeddb.leveldb/MANIFEST-000001
+2021/09/22-16:12:49.604 c72 Recovering log #16
+2021/09/22-16:12:49.622 c72 Reusing old log /home/hannd/snap/zalo-chat-unofficial/4/.config/zalo-chat-unofficial/IndexedDB/https_chat.zalo.me_0.indexeddb.leveldb/000016.log 
+2021/09/22-16:12:49.622 c72 Delete type=2 #14
+2021/09/22-16:12:49.622 c72 Delete type=2 #17

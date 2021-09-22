@@ -1,0 +1,17 @@
+[Data Source]
+DisplayName=Contacts
+Enabled=true
+Parent=03929fc002605c56aa0d2acbb2edec9b6ed6c20c
+
+[Authentication]
+Host=www.google.com
+Method=OAuth2
+Port=0
+ProxyUid=system-proxy
+RememberPassword=true
+User=nguyendinhhan2101@gmail.com
+CredentialName=
+IsExternal=false
+
+[Address Book]
+BackendName=google
